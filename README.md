@@ -4,9 +4,21 @@ A simple image that runs freeradius on [Alpine](https://hub.docker.com/_/alpine)
 
 # How to use
 
-## Docker Compose
+Configure the *clients.conf* and *users* files before you start the container. You can find examples in the [repository](https://github.com/networklessons/docker-alpine-freeradius).
 
-Configure the clients.conf and users files before you start the container. You can find examples in the [repository](https://github.com/networklessons/docker-alpine-freeradius)
+## Docker run
+
+```
+docker run \
+-p 1812:1812 \
+-p 1813:1813 \
+-v /home/vmware/docker-alpine-freeradius/clients.conf:/etc/raddb/clients.conf \
+-v /home/vmware/docker-alpine-freeradius/users:/etc/raddb/users \
+--name freeradius \
+networklessons/docker-alpine-freeradius
+```
+
+## Docker-compose
 
 ```
 version: '2'
