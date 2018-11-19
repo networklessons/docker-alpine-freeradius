@@ -1,6 +1,6 @@
 # About
 
-A simple image that runs freeradius on [Alpine](https://hub.docker.com/_/alpine).
+A small image that runs freeradius on [Alpine](https://hub.docker.com/_/alpine). You can find the image on [docker hub](https://hub.docker.com/r/networklessons/docker-alpine-freeradius/).
 
 # How to use
 
