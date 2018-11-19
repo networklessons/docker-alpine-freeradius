@@ -7,10 +7,6 @@ RUN apk update && \
     freeradius-radclient && \
     rm /var/cache/apk/*
 
-VOLUME \
-    /opt/db/ \
-    /etc/freeradius/certs
-
 # Redirect logs to STDOUT
 RUN ln -sf /dev/stdout /var/log/radius/radius.log
 
