@@ -4,6 +4,7 @@ LABEL maintainer="info@networklessons.com"
 RUN apk update && \
     apk add \
     freeradius \
+    freeradius-eap \
     freeradius-radclient && \
     rm /var/cache/apk/*
 
