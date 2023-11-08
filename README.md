@@ -35,4 +35,4 @@ services:
 
 ## Kubernetes
 
-You can find the deployment, config-maps, and services to run this container in the kubernetes folder in the repository.
+You can find the deployment, config-maps, and services to run this container in the kubernetes folder of the repository.
