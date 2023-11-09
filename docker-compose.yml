@@ -8,3 +8,4 @@ services:
   volumes:
    - "./clients.conf:/etc/raddb/clients.conf"
    - "./users:/etc/raddb/users"
+   - "./eap:/etc/raddb/mods-enabled/eap"
