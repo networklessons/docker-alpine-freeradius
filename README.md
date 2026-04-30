@@ -1,10 +1,12 @@
+> **Note:** This repository has been migrated to the [networklessons/labs](https://github.com/networklessons/labs/tree/main/containers/docker-alpine-freeradius/) monorepo. Please refer to the monorepo for the latest version.
+
 # About
 
 A small image that runs freeradius on [Alpine](https://hub.docker.com/_/alpine). You can find the image on [docker hub](https://hub.docker.com/r/networklessons/docker-alpine-freeradius/).
 
 # How to use
 
-Configure the *clients.conf* and *users* files before you start the container. You can find examples in the [repository](https://github.com/networklessons/docker-alpine-freeradius).
+Configure the *clients.conf* and *users* files before you start the container. You can find examples in the [repository](https://github.com/networklessons/labs/tree/main/containers/docker-alpine-freeradius/).
 
 ## Docker run
 
@@ -35,4 +37,4 @@ services:
 
 ## Kubernetes
 
-You can find the deployment, config-maps, and services to run this container in the kubernetes folder of the repository.
+You can find the deployment, config-maps, and services to run this container in the [kubernetes folder](https://github.com/networklessons/labs/tree/main/containers/docker-alpine-freeradius/kubernetes/) of the monorepo.
